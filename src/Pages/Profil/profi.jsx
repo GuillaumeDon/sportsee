@@ -8,10 +8,10 @@ function Profil() {
       
       <Banner classNameBanner="top-banner">
       <Nav
-      elem1={"Home"}
-      elem2={"About"}
-      elem3={"Services"}
-      elem4={"Contact"}
+      elem1={"Accueil"}
+      elem2={"Profil"}
+      elem3={"Réglage"}
+      elem4={"Communauté"}
       />
       </Banner>
             <Banner

@@ -7,11 +7,11 @@ function Nav({elem1, elem2, elem3, elem4}){
         
         <ul className="nav-container-list">
         <Logo/>
-        <li className="nav-container-list-item"><a href="#">{elem1}</a></li>
-        <li className="nav-container-list-item"><a href="#">{elem2}</a></li>
-        <li className="nav-container-list-item"><a href="#">{elem3}</a></li>
-        <li className="nav-container-list-item"><a href="#">{elem4}</a></li>
-        </ul>
+        <li className="nav-container-list-item">{elem1}</li>
+        <li className="nav-container-list-item">{elem2}</li>        
+        <li className="nav-container-list-item">{elem3}</li>
+        <li className="nav-container-list-item">{elem4}</li>
+         </ul>
         </div>
     )
 }
