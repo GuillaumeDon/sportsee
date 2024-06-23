@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Profil from "./pages/Profil";
+import './styles/main.css'
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <h1>My First React App</h1>
+
+    <Profil />
     </div>
   );
 }
