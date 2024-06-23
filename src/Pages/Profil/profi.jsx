@@ -7,7 +7,12 @@ function Profil() {
     <div>
       
       <Banner classNameBanner="top-banner">
-      <Nav/>
+      <Nav
+      elem1={"Home"}
+      elem2={"About"}
+      elem3={"Services"}
+      elem4={"Contact"}
+      />
       </Banner>
             <Banner
       classNameBanner="bottom-banner"

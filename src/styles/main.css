@@ -1,5 +1,7 @@
 ul, li {
   list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
@@ -15,7 +17,18 @@ a:hover {
 .logo {
   height: 70px;
   width: 161px;
-  padding: 20px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-container-list {
+  display: flex;
+  align-items: center;
+}
+.nav-container-list-item {
+  font-size: 24px;
 }
 
 .top-banner {

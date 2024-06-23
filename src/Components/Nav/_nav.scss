@@ -1,0 +1,21 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+    &-list{
+        display: flex;
+        align-items: center;
+      
+
+        
+
+        &-item{
+            // margin-left: 160px; //ici pour modifier espacement 
+            font-size: 24px;
+            // display: flex;
+            
+        }
+    }
+}
