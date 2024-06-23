@@ -5,7 +5,7 @@ function Logo(){
 
     return(
         
-        <img src={srcLogo} className="nav-container-list-item logo" alt="logo"/>
+        <img src={srcLogo} className="nav-container-top-list-item logo" alt="logo"/>
         
     )
 }
