@@ -1,9 +1,9 @@
 import React from "react";
 
-function Banner({classNameBanner}) {
+function Banner({classNameBanner, children}) {
   return (
     <div className={classNameBanner}>
-      
+      {children}
     </div>
   );
 }

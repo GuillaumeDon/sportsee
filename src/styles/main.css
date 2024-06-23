@@ -12,6 +12,12 @@ a:hover {
   color: inherit;
 }
 
+.logo {
+  height: 70px;
+  width: 161px;
+  padding: 20px;
+}
+
 .top-banner {
   background-color: black;
   color: white;
