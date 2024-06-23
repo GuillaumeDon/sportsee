@@ -1,14 +1,11 @@
-import Profil from "./pages/Profil";
-import './styles/main.css'
-
-
+import React from 'react';
 
 
 function App() {
   return (
     <div className="App">
 
-    <Profil />
+   <p>Hello</p>
     </div>
   );
 }

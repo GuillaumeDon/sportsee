@@ -1,3 +1,48 @@
 ul, li {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-transform: none;
+  color: inherit;
+}
+
+.delete {
+  display: none;
+  visibility: hidden;
+}
+
+.logo {
+  width: 10px;
+  height: 10px;
+}
+
+.profil-container-navbar-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 700px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  gap: 15px;
+  list-style: none;
 }/*# sourceMappingURL=main.css.map */
