@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../../Components/Banner";
 import Nav from "../../Components/Nav";
 import Logo from "../../Components/Logo";
+import Square from "../../Components/Square";
 
 function Profil() {
   return (
@@ -25,10 +26,10 @@ function Profil() {
           classContainer="nav-container-bottom"
           classContainerList="nav-container-bottom-list"
           classContainerListItem="nav-container-bottom-list-item"
-           elem1={"Image 1"}
-           elem2={"Image 2"}
-           elem3={"Image 3"}
-           elem4={"Image 4"}>
+           elem1={<Square/>}
+           elem2={<Square/>}
+           elem3={<Square/>}
+           elem4={<Square/>}>
       
       <p className="nav-container-bottom-list-item copyright">Copiryght, SportSee 2020</p>
       </Nav>

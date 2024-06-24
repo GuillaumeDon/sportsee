@@ -69,4 +69,10 @@ a:hover {
   width: 117px;
   min-height: 780px;
   height: 100vh;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  background-color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
