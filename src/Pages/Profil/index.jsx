@@ -3,10 +3,11 @@ import Banner from "../../Components/Banner";
 import Nav from "../../Components/Nav";
 import Logo from "../../Components/Logo";
 import Square from "../../Components/Square";
+import Welcome from "../../Components/Welcome";
 
 function Profil() {
   return (
-    <div>
+    <div className="profil-container">
 
       <Banner classNameBanner="top-banner">
         <Nav
@@ -39,6 +40,9 @@ function Profil() {
         </Nav>
 
       </Banner>
+      <div className="profil-main-container">
+        <Welcome />
+      </div>
     </div>
   );
 }
