@@ -22,13 +22,17 @@ function Profil() {
       </Banner>
       <Banner classNameBanner="bottom-banner">
       <Nav
-           elem1={"Accueil"}
-           elem2={"Profil"}
-           elem3={"Réglage"}
-           elem4={"Communauté"}>
-   
- 
+          classContainer="nav-container-bottom"
+          classContainerList="nav-container-bottom-list"
+          classContainerListItem="nav-container-bottom-list-item"
+           elem1={"Image 1"}
+           elem2={"Image 2"}
+           elem3={"Image 3"}
+           elem4={"Image 4"}>
+      
+      <p className="nav-container-bottom-list-item copyright">Copiryght, SportSee 2020</p>
       </Nav>
+      
       </Banner>
     </div>
   );

@@ -1,4 +1,5 @@
-ul, li {
+@charset "UTF-8";
+ul, li, p {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
@@ -32,6 +33,29 @@ a:hover {
   font-size: 24px;
 }
 
+.nav-container-bottom {
+  height: 100%;
+}
+.nav-container-bottom-list {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 91px;
+}
+.nav-container-bottom-list-item {
+  margin: 30px 0px;
+}
+
+.copyright {
+  writing-mode: vertical-rl; /* Texte vertical, de droite à gauche */
+  transform: rotate(180deg); /* Inverser pour bas en haut */
+  white-space: nowrap; /* Empêcher les mots de se casser en plusieurs lignes */
+  position: relative;
+  top: 18%;
+}
+
 .top-banner {
   background-color: black;
   color: white;
@@ -41,7 +65,7 @@ a:hover {
 
 .bottom-banner {
   background-color: black;
-  color: green;
+  color: white;
   width: 117px;
   min-height: 780px;
   height: 100vh;
