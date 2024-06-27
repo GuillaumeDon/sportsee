@@ -1,13 +1,13 @@
 import React from 'react';
-import Profil from './Pages/Profil';
+import TopBar from './components/TopBar';
 import'./styles/main.css';
 
 
 function App() {
   return (
     <div className="App">
-
-   <Profil/>
+  <TopBar />
+   
     </div>
   );
 }

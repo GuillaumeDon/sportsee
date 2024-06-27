@@ -1,13 +1,10 @@
 import React from "react";
-import srcLogo from "../../assets/logo.png";
+import LogoSite from "../../assets/logo.png";
 
-function Logo(){
-
-    return(
-        
-        <img src={srcLogo} className="nav-container-top-list-item logo" alt="logo"/>
-        
-    )
+function Logo() {
+  return (
+    <img className="logo" src={LogoSite} alt="logo du site" />
+  );
 }
 
 export default Logo;
