@@ -4,9 +4,10 @@ import Logo from "../Logo";
 function TopBar() {
   return (
     <div className="topBar">
-      <nav>
-        <Logo/>
-        <ul>
+        <Logo />
+        
+        <ul className="topBar-nav">
+
           <li>
             <a href="/">Accueil</a>
           </li>
@@ -20,7 +21,7 @@ function TopBar() {
             <a href="/contact">Communauté</a>
           </li>
         </ul>
-      </nav>
+   
     </div>
   );
 }

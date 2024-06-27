@@ -3,7 +3,7 @@ import LogoSite from "../../assets/logo.png";
 
 function Logo() {
   return (
-    <img className="logo" src={LogoSite} alt="logo du site" />
+    <img className="topBar-logo" src={LogoSite} alt="logo du site" />
   );
 }
 

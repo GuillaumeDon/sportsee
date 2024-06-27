@@ -25,9 +25,18 @@ a:hover {
   width: 100%;
   background-color: black;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px 0px 20px;
+}
+.topBar-nav {
+  display: flex;
+  gap: 200px;
+  font-size: 24px;
 }
 
-.logo {
-  height: 70px;
-  width: 70px;
+.topBar-logo {
+  height: 61px;
+  width: 178px;
 }/*# sourceMappingURL=main.css.map */
