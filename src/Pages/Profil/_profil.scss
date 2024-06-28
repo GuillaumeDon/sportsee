@@ -1,0 +1,17 @@
+.profil-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profil-content {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+

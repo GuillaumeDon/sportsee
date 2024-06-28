@@ -1,5 +1,4 @@
 import React from 'react';
-import TopBar from './components/TopBar';
 import Profil from './Pages/Profil';
 import'./styles/main.css';
 

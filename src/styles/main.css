@@ -75,4 +75,25 @@ a:hover {
   text-orientation: mixed;
   transform: rotate(180deg);
   margin-top: 20px;
+}
+
+.welcome {
+  align-self: flex-start;
+  padding-top: 60px;
+}
+
+.profil-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.profil-content {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }/*# sourceMappingURL=main.css.map */
