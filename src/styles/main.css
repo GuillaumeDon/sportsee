@@ -132,8 +132,16 @@ a:hover {
   gap: 20px;
 }
 
-.lineChart {
-  background-color: #FF0000;
+.graphics-shape {
+  box-sizing: border-box;
+}
+
+.graphics-shape h3 {
+  text-align: center;
+}
+
+.graphics-shape .recharts-legend-wrapper {
+  margin-bottom: 20px;
 }
 
 .RadarChart {

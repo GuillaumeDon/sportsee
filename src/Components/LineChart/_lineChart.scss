@@ -1,4 +1,14 @@
-.lineChart {
-    background-color: #FF0000;
+.graphics-shape {
 
-}
+    box-sizing: border-box; // Ensure padding is included in the width and height
+  }
+  
+  .graphics-shape h3 {
+    text-align: center;
+    // margin-bottom: 20px;
+  }
+  
+  .graphics-shape .recharts-legend-wrapper {
+    margin-bottom: 20px; 
+  }
+  
