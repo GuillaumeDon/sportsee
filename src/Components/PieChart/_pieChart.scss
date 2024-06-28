@@ -1,4 +1,9 @@
-.PieChart {
-    background-color: lightgrey;
 
-}
+
+.pie-chart-container {
+
+    background-color: lightgrey;
+    padding: 20px;
+    box-sizing: border-box; // Ensure padding is included in the width and height
+  }
+  

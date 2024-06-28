@@ -119,7 +119,6 @@ a:hover {
 .resultats-nutriments {
   width: 300px;
   height: 645px;
-  background-color: lightgray;
   margin-top: 160px;
   display: flex;
   flex-direction: column;
@@ -149,11 +148,13 @@ a:hover {
   background-color: #f0f0f0;
   padding: 20px;
   box-sizing: border-box;
-  background-color: rgb(94, 91, 91);
+  background-color: #282D30;
 }
 
-.PieChart {
+.pie-chart-container {
   background-color: lightgrey;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .resultats-content-1 {
