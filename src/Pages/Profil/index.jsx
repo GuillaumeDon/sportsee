@@ -1,5 +1,8 @@
 import React from "react";
 import CaloriesPicture from "../../assets/calories.png";
+import ProteinsPicture from "../../assets/proteins.png";
+import GlucidsPicture from "../../assets/glucids.png";
+import LipidsPicture from "../../assets/lipids.png";
 
 import Square from "../../components/Square";
 import TopBar from "../../components/TopBar";
@@ -38,35 +41,35 @@ function Profil() {
 
           <Square squareStyle ="square-nutriments-1" squareContent={CaloriesPicture} altContent="Flamme" />
           <div className="resultats-nutriments-1-text">
-            <h3 className="resultats-nutriments-1-text-title"> 1500Calories</h3>
+            <h3 className="resultats-nutriments-1-text-title"> 1500 Calories</h3>
             <p className="resultats-nutriments-1-text-para">Calories</p>
           </div>
         
         </div>
         <div className="resultats-nutriments-2">
         
-        <Square squareStyle ="square-nutriments-1" squareContent={CaloriesPicture} altContent="Flamme" />
-          <div className="resultats-nutriments-1-text">
-            <h3 className="resultats-nutriments-1-text-title"> 1500Calories</h3>
-            <p className="resultats-nutriments-1-text-para">Calories</p>
+        <Square squareStyle ="square-nutriments-2" squareContent={ProteinsPicture} altContent="Pouet" />
+          <div className="resultats-nutriments-2-text">
+            <h3 className="resultats-nutriments-2-text-title"> 2000 proteines</h3>
+            <p className="resultats-nutriments-2-text-para">Protéines</p>
           </div>
         
         </div>
         <div className="resultats-nutriments-3">
         
-        <Square squareStyle ="square-nutriments-1" squareContent={CaloriesPicture} altContent="Flamme" />
-          <div className="resultats-nutriments-1-text">
-            <h3 className="resultats-nutriments-1-text-title"> 1500Calories</h3>
-            <p className="resultats-nutriments-1-text-para">Calories</p>
+        <Square squareStyle ="square-nutriments-3" squareContent={GlucidsPicture} altContent="Pomme" />
+          <div className="resultats-nutriments-3-text">
+            <h3 className="resultats-nutriments-3-text-title"> 300 glucides</h3>
+            <p className="resultats-nutriments-3-text-para">Glucides</p>
           </div>
         
         </div>
         <div className="resultats-nutriments-4">
         
-        <Square squareStyle ="square-nutriments-1" squareContent={CaloriesPicture} altContent="Flamme" />
-          <div className="resultats-nutriments-1-text">
-            <h3 className="resultats-nutriments-1-text-title"> 1500Calories</h3>
-            <p className="resultats-nutriments-1-text-para">Calories</p>
+        <Square squareStyle ="square-nutriments-4" squareContent={LipidsPicture} altContent="Burger" />
+          <div className="resultats-nutriments-4-text">
+            <h3 className="resultats-nutriments-4-text-title"> 1500 Lipids</h3>
+            <p className="resultats-nutriments-4-text-para">Lipides</p>
           </div>
         
         </div>

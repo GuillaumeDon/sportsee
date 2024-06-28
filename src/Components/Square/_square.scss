@@ -1,5 +1,10 @@
 .square-sideBar,
-.square-nutriments-1{
+.square-nutriments-1,
+.square-nutriments-2,
+.square-nutriments-3,
+.square-nutriments-4
+
+{
     height: 64px;
     width: 64px;
     display: flex;
@@ -8,11 +13,25 @@
     border-radius: 5px;
 }
 
+
+.square-sideBar{
+    background-color: #FFFFFF;
+}
+
 .square-nutriments-1{
     background-color: rgb(233, 190, 190);
 }
 
 
-.square-sideBar{
-        background-color: #FFFFFF;
-    }
+.square-nutriments-2{
+    background-color: rgb(151, 204, 231);
+}
+
+.square-nutriments-3{
+    background-color: rgb(238, 218, 138);
+}
+
+.square-nutriments-4{
+    background-color: rgb(238, 178, 217);
+}
+

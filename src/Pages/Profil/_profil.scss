@@ -61,7 +61,7 @@
 
 
   .resultats-nutriments{
-    width: 350px;
+    width: 300px;
     height: 645px;
     background-color: lightgray;
     margin-top: 160px;
@@ -75,8 +75,11 @@
         
         display: flex;
         // gap:40px;
-        justify-content: space-around;
+        // justify-content: space-around;
         align-items: center;
+        justify-content: center;
+        gap: 20px;
+      
 
     }
   }
