@@ -1,4 +1,7 @@
 import React from "react";
+import CaloriesPicture from "../../assets/calories.png";
+
+import Square from "../../components/Square";
 import TopBar from "../../components/TopBar";
 import SideBar from "../../components/SideBar";
 import Welcome from "../../components/Welcome";
@@ -31,7 +34,42 @@ function Profil() {
             </div>
           </div>
           <div className="resultats-nutriments">
+          <div className="resultats-nutriments-1">
 
+          <Square squareStyle ="square-nutriments-1" squareContent={CaloriesPicture} altContent="Flamme" />
+          <div className="resultats-nutriments-1-text">
+            <h3 className="resultats-nutriments-1-text-title"> 1500Calories</h3>
+            <p className="resultats-nutriments-1-text-para">Calories</p>
+          </div>
+        
+        </div>
+        <div className="resultats-nutriments-2">
+        
+        <Square squareStyle ="square-nutriments-1" squareContent={CaloriesPicture} altContent="Flamme" />
+          <div className="resultats-nutriments-1-text">
+            <h3 className="resultats-nutriments-1-text-title"> 1500Calories</h3>
+            <p className="resultats-nutriments-1-text-para">Calories</p>
+          </div>
+        
+        </div>
+        <div className="resultats-nutriments-3">
+        
+        <Square squareStyle ="square-nutriments-1" squareContent={CaloriesPicture} altContent="Flamme" />
+          <div className="resultats-nutriments-1-text">
+            <h3 className="resultats-nutriments-1-text-title"> 1500Calories</h3>
+            <p className="resultats-nutriments-1-text-para">Calories</p>
+          </div>
+        
+        </div>
+        <div className="resultats-nutriments-4">
+        
+        <Square squareStyle ="square-nutriments-1" squareContent={CaloriesPicture} altContent="Flamme" />
+          <div className="resultats-nutriments-1-text">
+            <h3 className="resultats-nutriments-1-text-title"> 1500Calories</h3>
+            <p className="resultats-nutriments-1-text-para">Calories</p>
+          </div>
+        
+        </div>
           </div>
           </div>
         </div>
