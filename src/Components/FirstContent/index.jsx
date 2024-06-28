@@ -2,16 +2,16 @@ import React from "react";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const data = [
-  { day: '1', poids: 69.2, calories: 70 },
-  { day: '2', poids: 70, calories: 69 },
-  { day: '3', poids: 70.5, calories: 70 },
-  { day: '4', poids: 69.2, calories: 70.5 },
-  { day: '5', poids: 70, calories: 69 },
-  { day: '6', poids: 70.5, calories: 70 },
-  { day: '7', poids: 69.2, calories: 70.5 },
-  { day: '8', poids: 70, calories: 69 },
-  { day: '9', poids: 70.5, calories: 70 },
-  { day: '10', poids: 69.2, calories: 70.5 },
+  { poids: 69.2, calories: 70 },
+  { poids: 70, calories: 69 },
+  { poids: 70.5, calories: 70 },
+  { poids: 69.2, calories: 70.5 },
+  { poids: 70, calories: 69 },
+  { poids: 70.5, calories: 70 },
+  { poids: 69.2, calories: 70.5 },
+  { poids: 70, calories: 69 },
+  { poids: 70.5, calories: 70 },
+  { poids: 69.2, calories: 70.5 },
 ];
 
 function FirstContent() {
