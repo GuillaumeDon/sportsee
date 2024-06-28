@@ -21,6 +21,20 @@ a:hover {
   color: inherit;
 }
 
+.square {
+  height: 64px;
+  width: 64px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topBar-logo {
+  height: 61px;
+  width: 178px;
+}
+
 .topBar {
   height: 91px;
   width: 100%;
@@ -38,7 +52,27 @@ a:hover {
   font-family: "Roboto", sans-serif;
 }
 
-.topBar-logo {
-  height: 61px;
-  width: 178px;
+.sideBar {
+  width: 117px;
+  min-height: 760px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  justify-content: space-between;
+}
+.sideBar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-grow: 1;
+  justify-content: center;
+}
+.sideBar-copyright {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  margin-top: 20px;
 }/*# sourceMappingURL=main.css.map */

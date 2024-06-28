@@ -1,0 +1,26 @@
+.sideBar {
+    width: 117px;
+    min-height: 760px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    justify-content: space-between;
+
+    &-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex-grow: 1;
+        justify-content: center; 
+    }
+
+    &-copyright {
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        transform: rotate(180deg);
+        margin-top: 20px; 
+    }
+}
