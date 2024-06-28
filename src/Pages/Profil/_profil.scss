@@ -36,27 +36,7 @@
     display: flex;
     justify-content: space-between;
    
-    
-    &-graph1{
-        background-color: #FF0000;
-
-    }
-
-    &-graph2{
-        background-color: #282D30;
-
-    }
-
-    &-graph3{
-        background-color: lightgrey;
-
-    }
-
-    &-graph1, &-graph2, &-graph3{
-        height: 263px;
-        width: 258px;
-        // margin-right: 20px;
-    }
+   
   }
 
 

@@ -132,6 +132,20 @@ a:hover {
   gap: 20px;
 }
 
+.resultats-content-2-graph1 {
+  background-color: #FF0000;
+}
+.resultats-content-2-graph2 {
+  background-color: #282D30;
+}
+.resultats-content-2-graph3 {
+  background-color: lightgrey;
+}
+.resultats-content-2-graph1, .resultats-content-2-graph2, .resultats-content-2-graph3 {
+  height: 263px;
+  width: 258px;
+}
+
 .profil-container {
   display: flex;
   flex-direction: column;
@@ -166,17 +180,4 @@ a:hover {
   margin-top: 60px;
   display: flex;
   justify-content: space-between;
-}
-.resultats-content-2-graph1 {
-  background-color: #FF0000;
-}
-.resultats-content-2-graph2 {
-  background-color: #282D30;
-}
-.resultats-content-2-graph3 {
-  background-color: lightgrey;
-}
-.resultats-content-2-graph1, .resultats-content-2-graph2, .resultats-content-2-graph3 {
-  height: 263px;
-  width: 258px;
 }/*# sourceMappingURL=main.css.map */
