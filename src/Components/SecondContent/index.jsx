@@ -3,7 +3,7 @@ import Graphics from '../Graphics';
 
 function SecondContent() {
   return (
-    <div className="second-content">
+    <div className="resultats-content-2">
       <Graphics classNameGraphics="resultats-content-2-graph1" />
       <Graphics classNameGraphics="resultats-content-2-graph2" />
       <Graphics classNameGraphics="resultats-content-2-graph3" />
