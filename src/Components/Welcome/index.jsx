@@ -3,8 +3,8 @@ import React from "react";
 function Welcome() {
 return(
     <div className="welcome">
-        <h1>Bonjour Thomas</h1>
-        <p>Félicitation ! Vous avez explosé vos objectifs hier 👏</p>
+        <h1 className="welcome-title">Bonjour Thomas</h1>
+        <p className="welcome-para">Félicitation ! Vous avez explosé vos objectifs hier 👏</p>
     </div>
 )
 }

@@ -1,5 +1,14 @@
 .welcome {
     align-self: flex-start;
     padding-top: 30px;
+   
+
+    &-title{
+        font-size: 48px;
+    }
+
+    &-para{
+        font-size: 18px;
+    }
   }
   
