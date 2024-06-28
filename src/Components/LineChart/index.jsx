@@ -14,7 +14,7 @@ const data = [
 
 const LineChartComponent = () => {
   return (
-    <div className="graphics-shape">
+    <div className="graphics-shape LineCharte">
       <h3>Durée moyenne des sessions</h3>
       <ResponsiveContainer width="100%" height={250}>
         <LineChart
