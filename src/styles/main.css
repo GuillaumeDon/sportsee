@@ -132,20 +132,16 @@ a:hover {
   gap: 20px;
 }
 
-.resultats-content-2-graph3 {
-  background-color: lightgrey;
-}
-.resultats-content-2-graph1, .resultats-content-2-graph2, .resultats-content-2-graph3 {
-  height: 263px;
-  width: 258px;
-}
-
 .lineChart {
   background-color: #FF0000;
 }
 
 .RadarChart {
   background-color: #282D30;
+}
+
+.PieChart {
+  background-color: lightgrey;
 }
 
 .resultats-content-1 {
