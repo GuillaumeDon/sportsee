@@ -3,7 +3,7 @@ import { PieChart, Pie, Sector, ResponsiveContainer } from 'recharts';
 
 
 const data = [
-  { name: 'Objectif atteint', value: 75 },
+  { name: 'Objectif atteint', value: 12 },
 ];
 
 const renderActiveShape = (props) => {
@@ -68,8 +68,8 @@ export default class PieChartComponent extends PureComponent {
   render() {
     return (
       <div className="pie-chart-container graphics-shape">
-        <ResponsiveContainer width="100%" height={400}>
-          <PieChart width={400} height={400}>
+        <ResponsiveContainer width="100%" height={260}>
+          <PieChart width={260} height={260}>
             <Pie
               activeIndex={this.state.activeIndex}
               activeShape={renderActiveShape}
