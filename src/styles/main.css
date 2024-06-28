@@ -116,6 +116,22 @@ a:hover {
   color: red;
 }
 
+.resultats-nutriments {
+  width: 300px;
+  height: 645px;
+  background-color: lightgray;
+  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.resultats-nutriments-1, .resultats-nutriments-2, .resultats-nutriments-3, .resultats-nutriments-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
 .profil-container {
   display: flex;
   flex-direction: column;
@@ -163,20 +179,4 @@ a:hover {
 .resultats-content-2-graph1, .resultats-content-2-graph2, .resultats-content-2-graph3 {
   height: 263px;
   width: 258px;
-}
-
-.resultats-nutriments {
-  width: 300px;
-  height: 645px;
-  background-color: lightgray;
-  margin-top: 160px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.resultats-nutriments-1, .resultats-nutriments-2, .resultats-nutriments-3, .resultats-nutriments-4 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
 }/*# sourceMappingURL=main.css.map */
