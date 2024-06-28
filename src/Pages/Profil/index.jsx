@@ -12,6 +12,7 @@ function Profil() {
         <SideBar />
         <div className="main-content">
           <Welcome />
+          <div className="profil-all-results">
           <div className="resultats-contents">
           <div className="resultats-content-1">
 
@@ -28,6 +29,10 @@ function Profil() {
             
             </div>
             </div>
+          </div>
+          <div className="resultats-nutriments">
+
+          </div>
           </div>
         </div>
       </div>

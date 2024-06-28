@@ -98,10 +98,15 @@ a:hover {
   padding: 20px;
 }
 
+.profil-all-results {
+  display: flex;
+  gap: 30px;
+}
+
 .resultats-content-1 {
   height: 320px;
   width: 835px;
-  background-color: red;
+  background-color: #FBFBFB;
   margin-top: 160px;
 }
 
@@ -113,15 +118,22 @@ a:hover {
   justify-content: space-between;
 }
 .resultats-content-2-graph1 {
-  background-color: blue;
+  background-color: #FF0000;
 }
 .resultats-content-2-graph2 {
-  background-color: yellow;
+  background-color: #282D30;
 }
 .resultats-content-2-graph3 {
-  background-color: pink;
+  background-color: lightgrey;
 }
 .resultats-content-2-graph1, .resultats-content-2-graph2, .resultats-content-2-graph3 {
   height: 263px;
   width: 258px;
+}
+
+.resultats-nutriments {
+  width: 350px;
+  height: 645px;
+  background-color: lightgray;
+  margin-top: 160px;
 }/*# sourceMappingURL=main.css.map */
