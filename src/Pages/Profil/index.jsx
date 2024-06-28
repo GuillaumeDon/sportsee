@@ -3,11 +3,11 @@ import CaloriesPicture from "../../assets/calories.png";
 import ProteinsPicture from "../../assets/proteins.png";
 import GlucidsPicture from "../../assets/glucids.png";
 import LipidsPicture from "../../assets/lipids.png";
-
 import Square from "../../components/Square";
 import TopBar from "../../components/TopBar";
 import SideBar from "../../components/SideBar";
 import Welcome from "../../components/Welcome";
+
 
 
 function Profil() {
@@ -21,7 +21,7 @@ function Profil() {
           <div className="profil-all-results">
           <div className="resultats-contents">
           <div className="resultats-content-1">
-
+       
           </div>
           <div className="resultats-content-2">
 
