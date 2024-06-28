@@ -52,7 +52,7 @@ const renderActiveShape = (props) => {
   );
 };
 
-export default class PieChartComponent extends PureComponent {
+export default class PieChartGraph extends PureComponent {
   static demoUrl = 'https://codesandbox.io/s/pie-chart-with-customized-active-shape-y93si';
 
   state = {

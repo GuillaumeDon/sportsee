@@ -11,7 +11,7 @@ const data = [
   { subject: 'Vitesse', A: 65, fullMark: 150 },
 ];
 
-export default class RadarChartComponent extends PureComponent {
+export default class RadarChartGraph extends PureComponent {
   static demoUrl = 'https://codesandbox.io/p/sandbox/simple-radar-chart-2p5sxm';
 
   render() {

@@ -12,7 +12,7 @@ const data = [
   { name: 'D', minutes: 50 },
 ];
 
-const LineChartComponent = () => {
+const LineChartGraph = () => {
   return (
     <div className="graphics-shape LineCharte">
       <h3>Durée moyenne des sessions</h3>
@@ -33,4 +33,4 @@ const LineChartComponent = () => {
   );
 };
 
-export default LineChartComponent;
+export default LineChartGraph;

@@ -1,15 +1,15 @@
 import React from 'react';
 
-import LineChart from '../LineChart';
-import RadarChart from '../RadarChart';
-import PieChart from '../PieChart';
+import LineChartGraph from '../LineChartGraph';
+import RadarChartGraph from '../RadarChartGraph';
+import PieChartGraph from '../PieChartGraph';
 
 function SecondContent() {
   return (
     <div className="resultats-content-2">
-      <LineChart />
-      <RadarChart />
-      <PieChart/>
+      <LineChartGraph/>
+      <RadarChartGraph />
+      <PieChartGraph/>
     </div>
   );
 }
