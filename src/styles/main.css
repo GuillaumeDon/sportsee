@@ -79,7 +79,7 @@ a:hover {
 
 .welcome {
   align-self: flex-start;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 .profil-container {
@@ -108,7 +108,6 @@ a:hover {
 .resultats-content-2 {
   height: 263px;
   width: 835px;
-  background-color: green;
   margin-top: 60px;
   display: flex;
   justify-content: space-between;
