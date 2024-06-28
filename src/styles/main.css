@@ -88,6 +88,10 @@ a:hover {
   font-size: 18px;
 }
 
+.red-text {
+  color: red;
+}
+
 .profil-container {
   display: flex;
   flex-direction: column;
