@@ -2,16 +2,16 @@ import React from "react";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const data = [
-  { poids: 69, calories: 70 },
-  { poids: 70, calories: 69 },
-  { poids: 70.5, calories: 70 },
-  { poids: 69, calories: 70.5 },
-  { poids: 70, calories: 69 },
-  { poids: 70.5, calories: 70 },
-  { poids: 69, calories: 70.5 },
-  { poids: 70, calories: 69 },
-  { poids: 70.5, calories: 70 },
-  { poids: 69, calories: 70.5 },
+  { day: '1', poids: 69.2, calories: 70 },
+  { day: '2', poids: 70, calories: 69 },
+  { day: '3', poids: 70.5, calories: 70 },
+  { day: '4', poids: 69.2, calories: 70.5 },
+  { day: '5', poids: 70, calories: 69 },
+  { day: '6', poids: 70.5, calories: 70 },
+  { day: '7', poids: 69.2, calories: 70.5 },
+  { day: '8', poids: 70, calories: 69 },
+  { day: '9', poids: 70.5, calories: 70 },
+  { day: '10', poids: 69.2, calories: 70.5 },
 ];
 
 function FirstContent() {
@@ -27,8 +27,8 @@ function FirstContent() {
           barCategoryGap="30%"
         >
           <CartesianGrid vertical={false} />
-          <XAxis dataKey="name" />
-          <YAxis yAxisId="right" orientation="right" domain={[68, 71]} ticks={[69, 70]} />
+          <XAxis dataKey="day" />
+          <YAxis yAxisId="right" orientation="right" domain={[69, 71]} ticks={[69, 70]} />
           <Tooltip />
           <Legend verticalAlign="top" align="right" wrapperStyle={{ marginBottom: '20px' }} />
           <Bar yAxisId="right" dataKey="poids" fill="#000000" />
