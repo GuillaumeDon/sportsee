@@ -1,10 +1,10 @@
 import React from "react";
 
-function Square({squareContent, altContent}) {
+function Square({squareContent, altContent, squareStyle}) {
 
     return(
 
-    <div className="square">
+    <div className={squareStyle}>
         <img src={squareContent} alt={altContent} />
     </div>
     );

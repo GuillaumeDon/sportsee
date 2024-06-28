@@ -7,31 +7,30 @@ import Welcome from "../../components/Welcome";
 function Profil() {
   return (
     <div className="profil-container">
-       <TopBar />
-      
-       <div className="profil-content">
-       <SideBar />
-        <Welcome/>
-        <div className="resultats">
-          <div className="resultats-graphics">
-          <div className="resultats-graphics-principal">
+      <TopBar />
+      <div className="profil-content">
+        <SideBar />
+        <div className="main-content">
+          <Welcome />
+          <div className="resultats-contents">
+          <div className="resultats-content-1">
+
+          </div>
+          <div className="resultats-content-2">
+
+            <div className="resultats-content-2-graph1">
             
             </div>
-            <div className="resultats-graphics-graph1">
+            <div className="resultats-content-2-graph2">
             
             </div>
-            <div className="resultats-graphics-graph2">
+                      <div className="resultats-content-2-graph3">
             
             </div>
-            <div className="resultats-graphics-graph3">
-            
             </div>
           </div>
-          <div className="resultats-nutriments"></div>
         </div>
-        
-
-       </div>
+      </div>
     </div>
   );
 }

@@ -21,7 +21,7 @@ a:hover {
   color: inherit;
 }
 
-.square {
+.square-sideBar {
   height: 64px;
   width: 64px;
   background-color: #FFFFFF;
@@ -96,4 +96,33 @@ a:hover {
   display: flex;
   flex-direction: column;
   padding: 20px;
+}
+
+.resultats-content-1 {
+  height: 320px;
+  width: 835px;
+  background-color: red;
+  margin-top: 160px;
+}
+
+.resultats-content-2 {
+  height: 263px;
+  width: 835px;
+  background-color: green;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.resultats-content-2-graph1 {
+  background-color: blue;
+}
+.resultats-content-2-graph2 {
+  background-color: yellow;
+}
+.resultats-content-2-graph3 {
+  background-color: pink;
+}
+.resultats-content-2-graph1, .resultats-content-2-graph2, .resultats-content-2-graph3 {
+  height: 263px;
+  width: 258px;
 }/*# sourceMappingURL=main.css.map */

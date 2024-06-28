@@ -14,4 +14,40 @@
     padding: 20px;
   }
   
+  .resultats-content-1 {
+    height: 320px;
+    width: 835px;
+    background-color: red;
+    margin-top: 160px; 
+  }
+  
+  .resultats-content-2 {
+    height: 263px;
+    width: 835px;
+    background-color: green;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+   
+    
+    &-graph1{
+        background-color: blue;
 
+    }
+
+    &-graph2{
+        background-color: yellow;
+
+    }
+
+    &-graph3{
+        background-color: pink;
+
+    }
+
+    &-graph1, &-graph2, &-graph3{
+        height: 263px;
+        width: 258px;
+        // margin-right: 20px;
+    }
+  }
