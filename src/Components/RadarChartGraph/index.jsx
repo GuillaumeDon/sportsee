@@ -18,7 +18,7 @@ export default class RadarChartGraph extends PureComponent {
     return (
       <div className="radar-chart-container graphics-shape">
         <ResponsiveContainer width="100%" height="100%">
-          <RadarChart cx="50%" cy="50%" outerRadius="80%" data={data}>
+          <RadarChart cx="50%" cy="50%" outerRadius="50%" data={data}>
             <PolarGrid />
             <PolarAngleAxis dataKey="subject" />
             <PolarRadiusAxis />

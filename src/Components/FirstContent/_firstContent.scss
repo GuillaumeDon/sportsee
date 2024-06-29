@@ -30,3 +30,11 @@
 .resultats-content-1 .custom-legend span:last-child {
   background-color: #FF0000; // Red color for "calories"
 }
+
+
+
+.recharts-default-legend,
+.recharts-cartesian-axis-tick-line,
+.recharts-cartesian-axis-line{
+  display: none;
+}

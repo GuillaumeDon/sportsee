@@ -146,9 +146,13 @@ a:hover {
 
 .radar-chart-container {
   background-color: #f0f0f0;
-  padding: 20px;
   box-sizing: border-box;
   background-color: #282D30;
+}
+
+.recharts-polar-radius-axis-tick-value,
+.recharts-polar-grid-angle {
+  display: none;
 }
 
 .pie-chart-container {
@@ -187,6 +191,12 @@ a:hover {
 
 .resultats-content-1 .custom-legend span:last-child {
   background-color: #FF0000;
+}
+
+.recharts-default-legend,
+.recharts-cartesian-axis-tick-line,
+.recharts-cartesian-axis-line {
+  display: none;
 }
 
 .resultats-content-2 {

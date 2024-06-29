@@ -3,13 +3,13 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsive
 
 const data = [
   { poids: 69.2, calories: 70 },
-  { poids: 70, calories: 69 },
+  { poids: 70, calories: 69.4 },
+  { poids: 70.5, calories: 70 },
+  { poids: 70.2, calories: 70.5 },
+  { poids: 70, calories: 69.4 },
   { poids: 70.5, calories: 70 },
   { poids: 69.2, calories: 70.5 },
-  { poids: 70, calories: 69 },
-  { poids: 70.5, calories: 70 },
-  { poids: 69.2, calories: 70.5 },
-  { poids: 70, calories: 69 },
+  { poids: 70, calories: 69.4 },
   { poids: 70.5, calories: 70 },
   { poids: 69.2, calories: 70.5 },
 ];

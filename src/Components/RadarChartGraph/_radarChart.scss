@@ -1,8 +1,13 @@
 .radar-chart-container {
 
     background-color: #f0f0f0;
-    padding: 20px;
+    // padding: 20px;
     box-sizing: border-box; 
     background-color: #282D30;
   }
   
+
+.recharts-polar-radius-axis-tick-value,
+.recharts-polar-grid-angle {
+  display: none;
+}

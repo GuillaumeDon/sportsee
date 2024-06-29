@@ -3,13 +3,13 @@ import { LineChart, Line, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } f
 
 
 const data = [
-  { name: 'L', minutes: 30 },
-  { name: 'M', minutes: 45 },
-  { name: 'M', minutes: 50 },
-  { name: 'J', minutes: 40 },
-  { name: 'V', minutes: 60 },
-  { name: 'S', minutes: 70 },
-  { name: 'D', minutes: 50 },
+  { minutes: 30 },
+  { minutes: 45 },
+  { minutes: 50 },
+  { minutes: 40 },
+  { minutes: 60 },
+  { minutes: 70 },
+  { minutes: 50 },
 ];
 
 const LineChartGraph = () => {
