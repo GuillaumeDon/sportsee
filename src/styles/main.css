@@ -138,6 +138,7 @@ a:hover {
 
 .LineCharte h3 {
   text-align: center;
+  color: white;
 }
 
 .LineCharte .recharts-legend-wrapper {
@@ -191,12 +192,6 @@ a:hover {
 
 .resultats-content-1 .custom-legend span:last-child {
   background-color: #FF0000;
-}
-
-.recharts-default-legend,
-.recharts-cartesian-axis-tick-line,
-.recharts-cartesian-axis-line {
-  display: none;
 }
 
 .resultats-content-2 {

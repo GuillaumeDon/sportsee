@@ -18,7 +18,7 @@ function FirstContent() {
   return (
     <div className="resultats-content-1">
       <h3>Activité quotidienne</h3>
-      <ResponsiveContainer width="100%" height="100%">
+      <ResponsiveContainer width={835} height="100%">
         <BarChart
           width={500}
           height={300}

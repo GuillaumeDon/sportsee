@@ -4,11 +4,11 @@ import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Responsi
 
 const data = [
   { subject: 'Intensité', A: 120, fullMark: 150 },
-  { subject: 'Cardio', A: 98, fullMark: 150 },
-  { subject: 'Énergie', A: 86, fullMark: 150 },
+  { subject: 'Vitesse', A: 98, fullMark: 150 },
+  { subject: 'Force', A: 86, fullMark: 150 },
   { subject: 'Endurance', A: 99, fullMark: 150 },
-  { subject: 'Force', A: 85, fullMark: 150 },
-  { subject: 'Vitesse', A: 65, fullMark: 150 },
+  { subject: 'Energie', A: 85, fullMark: 150 },
+  { subject: 'Cardio', A: 65, fullMark: 150 },
 ];
 
 export default class RadarChartGraph extends PureComponent {
