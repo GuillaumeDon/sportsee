@@ -1,15 +1,14 @@
 import React from 'react';
 import { LineChart, Line, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
-
 const data = [
-  { minutes: 30 },
-  { minutes: 45 },
-  { minutes: 50 },
-  { minutes: 40 },
-  { minutes: 60 },
-  { minutes: 70 },
-  { minutes: 50 },
+  { day: 'L', minutes: 30 },
+  { day: 'M', minutes: 45 },
+  { day: 'M', minutes: 50 },
+  { day: 'J', minutes: 40 },
+  { day: 'V', minutes: 60 },
+  { day: 'S', minutes: 70 },
+  { day: 'D', minutes: 50 },
 ];
 
 const LineChartGraph = () => {
@@ -21,12 +20,18 @@ const LineChartGraph = () => {
           data={data}
           margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
         >
-
-          <XAxis dataKey="name" />
+          <XAxis dataKey="day" />
           <YAxis hide />
           <Tooltip formatter={(value) => `${value} min`} />
           <Legend verticalAlign="top" align="right" wrapperStyle={{ marginBottom: '20px' }} />
-          <Line type="monotone" dataKey="minutes" stroke="#8884d8" strokeWidth={2} />
+          <Line
+            type="monotone"
+            dataKey="minutes"
+            stroke="#8884d8"
+            strokeWidth={2}
+            dot={false}
+            activeDot={{ r: 8 }}
+          />
         </LineChart>
       </ResponsiveContainer>
     </div>

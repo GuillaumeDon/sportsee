@@ -1,15 +1,13 @@
 .LineCharte {
+  box-sizing: border-box;
+  background-color: rgb(211, 56, 56);
+}
 
-    box-sizing: border-box;
-    background-color: rgb(211, 56, 56);
-  }
-  
-  .LineCharte h3 {
-    text-align: center;
-    color: white;
-    // margin-bottom: 20px;
-  }
-  
-  .LineCharte .recharts-legend-wrapper {
-    margin-bottom: 20px; 
-  }
+.LineCharte h3 {
+  text-align: center;
+  color: white;
+}
+
+.LineCharte .recharts-legend-wrapper {
+  margin-bottom: 20px; 
+}
