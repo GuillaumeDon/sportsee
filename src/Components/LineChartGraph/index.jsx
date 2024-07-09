@@ -1,5 +1,5 @@
 import React from 'react';
-import { LineChart, Line, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
 const data = [
   { day: 'L', minutes: 30 },
@@ -23,7 +23,7 @@ const LineChartGraph = () => {
           <XAxis dataKey="day" axisLine={false} tickLine={false} />
           <YAxis hide />
           <Tooltip formatter={(value) => `${value} min`} />
-          <Legend verticalAlign="top" align="right" wrapperStyle={{ marginBottom: '20px' }} />
+          {/* Removed Legend component */}
           <Line
             type="monotone"
             dataKey="minutes"
