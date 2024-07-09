@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import { PieChart, Pie, Cell } from 'recharts';
 
 const data = [
-  { name: 'Filled', value: 12 },
+  { name: 'Filled', value: 30 },
   // { name: 'Unfilled', value: 88 },
 ];
 
