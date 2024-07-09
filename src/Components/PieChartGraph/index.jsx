@@ -2,11 +2,11 @@ import React, { PureComponent } from 'react';
 import { PieChart, Pie, Cell } from 'recharts';
 
 const data = [
-  { name: 'Filled', value: 12 },
-  { name: 'Unfilled', value: 88 },
+  { name: 'Filled', value: 24 },
+  { name: 'Unfilled', value: 76 },
 ];
 
-const COLORS = ['#0088FE', 'transparent']; // Utiliser 'transparent' pour la partie non remplie
+const COLORS = ['#0088FE', 'transparent']; 
 
 export default class Example extends PureComponent {
   static demoUrl = 'https://codesandbox.io/s/pie-chart-with-padding-angle-7ux0o';
@@ -16,7 +16,7 @@ export default class Example extends PureComponent {
       <div className="pie-chart-container">
         <h3>Score</h3>
         <div className="pie-chart-inner-container">
-          <PieChart className="graphic-shapes" width={256} height={268} onMouseEnter={this.onPieEnter}>
+          <PieChart className="graphic-shapes" width={256} height={256} onMouseEnter={this.onPieEnter}>
             <Pie
               data={data}
               startAngle={90}
@@ -32,7 +32,7 @@ export default class Example extends PureComponent {
             </Pie>
           </PieChart>
           <div className="centered-text">
-            12% de votre objectif
+            12% <br></br>de votre <br></br>objectif
           </div>
         </div>
       </div>
