@@ -1,41 +1,45 @@
 .resultats-content-1 {
   height: 320px;
   width: 835px;
-  // background-color: #b6a0a0;
   margin-top: 160px;
   padding: 20px; // Add padding if needed to adjust the layout
 }
 
+.resultats-content-1 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .resultats-content-1 h3 {
   text-align: left;
-  margin-bottom: 20px; // Add margin bottom to create space between the title and the legend
+  margin: 0; // Remove margin bottom to align with legend
 }
 
-.resultats-content-1 .custom-legend {
+.custom-legend {
   display: flex;
-  justify-content: flex-end;
-  margin-bottom: 20px; // Adjust the margin to create space between the legend and the chart
+  align-items: center;
+  margin-right: 40px;
 }
 
-.resultats-content-1 .custom-legend div {
+.custom-legend .legend-item {
+  display: flex;
+  align-items: center;
   margin-right: 20px;
 }
 
-.resultats-content-1 .custom-legend span {
-  background-color: #000000; // Black color for "poids"
-  padding: 5px 10px;
-  color: #fff;
+.custom-legend .legend-point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
 }
 
-.resultats-content-1 .custom-legend span:last-child {
-  background-color: #FF0000; // Red color for "calories"
+.custom-legend .black {
+  background-color: #000000; // Black color for "Poids"
 }
 
-
-
-// .recharts-default-legend,
-// .recharts-cartesian-axis-tick-line,
-// .recharts-cartesian-axis-line{
-//   display: none;
-// }
-
+.custom-legend .red {
+  background-color: #FF0000; // Red color for "Calories brûlées"
+}

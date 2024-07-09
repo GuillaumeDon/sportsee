@@ -169,28 +169,42 @@ a:hover {
   padding: 20px;
 }
 
+.resultats-content-1 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .resultats-content-1 h3 {
   text-align: left;
-  margin-bottom: 20px;
+  margin: 0;
 }
 
-.resultats-content-1 .custom-legend {
+.custom-legend {
   display: flex;
-  justify-content: flex-end;
-  margin-bottom: 20px;
+  align-items: center;
+  margin-right: 40px;
 }
 
-.resultats-content-1 .custom-legend div {
+.custom-legend .legend-item {
+  display: flex;
+  align-items: center;
   margin-right: 20px;
 }
 
-.resultats-content-1 .custom-legend span {
-  background-color: #000000;
-  padding: 5px 10px;
-  color: #fff;
+.custom-legend .legend-point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
 }
 
-.resultats-content-1 .custom-legend span:last-child {
+.custom-legend .black {
+  background-color: #000000;
+}
+
+.custom-legend .red {
   background-color: #FF0000;
 }
 
