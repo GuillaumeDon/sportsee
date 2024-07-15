@@ -2,11 +2,11 @@ import React, { PureComponent } from 'react';
 import { PieChart, Pie, Cell } from 'recharts';
 
 const data = [
-  { name: 'Filled', value: 24 },
+  { name: 'Filled', value: 36 },
   { name: 'Unfilled', value: 76 },
 ];
 
-const COLORS = ['#0088FE', 'transparent']; 
+const COLORS = ['#E60000', 'transparent']; 
 
 export default class Example extends PureComponent {
   static demoUrl = 'https://codesandbox.io/s/pie-chart-with-padding-angle-7ux0o';
