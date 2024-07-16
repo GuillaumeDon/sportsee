@@ -20,7 +20,7 @@ const LineChartGraph = () => {
           data={data}
           margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
         >
-          <XAxis dataKey="day" axisLine={false} tickLine={false} />
+          <XAxis dataKey="day" axisLine={false} tickLine={false} /> 
           <YAxis hide />
           <Tooltip formatter={(value) => `${value} min`} />
           {/* Removed Legend component */}
